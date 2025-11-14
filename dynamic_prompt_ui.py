@@ -47,7 +47,7 @@ prompt = template.invoke({
     'length_input': length_input
 })
 
-if st.button:
+if st.button("Summarize"):
     result = model.invoke(prompt)
     print(result.content)
     st.write(result.content)
