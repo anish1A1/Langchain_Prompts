@@ -1,0 +1,2 @@
+PromptTemplates are used for single line conversation.
+ChatPromptTemplate is used for multi line conversation(with multiple types of users).
