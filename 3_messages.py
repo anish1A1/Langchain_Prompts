@@ -7,7 +7,7 @@ load_dotenv()
 # We state messages according to the type of user because when working in big project we need to store the messages according to the user type. for e.g which msg was written by ai like with the user.
 
 llm = HuggingFaceEndpoint(
-    repo_id= "moonshotai/Kimi-K2-Thinking",
+    repo_id= "meta-llama/Llama-3.2-3B-Instruct",
     task="text-generation"
 )
 
